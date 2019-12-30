@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/d171b53bb9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vidigami Admin Page</title>
+</head>
+<body>
+    <nav class="col-sm-12 col-md-12 col-xl-12 navbar m-0 p-0 navbar-expand-sm navbar-top navBar">
+        <div class="col-sm-3 col-md-2 col-xl-2 logoBg">
+            <img src="../../../images/logo_white_4k.png" alt="" class="col-sm-12 col-md-12 col-xl-12 navbar-brand">
+        </div>
+        <input type="search" class="col-sm-4 col-md-4 col-xl-4 searchText" placeholder="Search">
+        <button class="searchButton"><i class="fa fa-search"></i></button>
+        <ul class="nav justify-content-end offset-xl-4 p-0">
+            <li class="nav-item"><i class="fa fa-pencil-ruler"></i></li>
+            <li class="nav-item"><i class="fa networkIcon"><img src="../../../vectors/wireless-signal-interface-status-symbol-of-bars-group.svg" alt=""></i></li>
+            <li class="nav-item"><i class="fa fa-bell"></i></li>
+            <li class="nav-item profilePic"><img src="../../../images/Cooper-Crest.png" alt=""></li>
+        </ul>
+    </nav>
+<div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-4 col-md-2 col-xl-2 vh-100 sticky-top leftBar">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="row profileName">
+                            <div class="col-xl-4  leftProfile">
+                                <h1>D</h1>
+                            </div>
+                            <div class="col-xl-8 leftProfileName">
+                                <h1>David</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-xl-10 groups">
+                        <h5>Groups</h5>
+                    </div>
+                    <div class="col-md-2 col-xl-2 groupIcon">
+                        <i class="fa fa-list-ul"></i>
+                    </div>
+                </div>
+                <div class="row groupUl">
+                    <ul>
+                        <li><span>*Welcome to 2019-2020*</span></li>
+                        <li><span>faculty & staff</span></li>
+                        <li id="sE"><span>Social Events</span></li>
+                    </ul>
+                </div>
+                <div class="row supportBtn">
+                    <div class="col-xl-12 ml-3">
+                        <button class="ml-4"><i class="fa fa-question-circle"> Support</i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-10 col-xl-10 px-0 rightBar">
+                <div class="row">
+                    <div class="col-sm-4 col-md-1 col-xl-1 p-3 mainContImg">
+                        <img src="../../../images/Cooper-Crest.png" alt="">
+                    </div>
+                    <div class="col-sm-8 col-md-11 col-xl-11">
+                        <div class="row">
+                            <div class="col-xl-12 vTS p-3">
+                                <h1>Vidigami Testing School</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h6>Admin</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="p-0 m-0">
+                <div class="row">
+                    <ul class="col-md-12 col-xl-12 ml-3 rightTab">
+                        <div class="row">
+                            <li>
+                                <a href="#">Users</a>
+                            </li>
+                            <li>
+                                <a href="#">Insights</a>
+                            </li>
+                            <li>
+                                <a href="#">Reported Media</a>
+                            </li>
+                            <li>
+                                <a href="#">Weekly Uploads</a>
+                            </li>
+                            <li>
+                                <a href="#">tags</a>
+                            </li>
+                            <li>
+                                <a href="#">Roles</a>
+                            </li>
+                            <li>
+                                <a href="#">Integrations</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <hr class="shadowHr">
+                <div class="px-3">
+                <div class="row resultTop pt-3">
+                    <div class="col-sm-4 col-md-2 col-xl-2 pr-0">
+                        <input type="checkbox" class="resultChk" name="resultChk">
+                        <label for="resultChk" class="pl-3">0 SELECTED</label>
+                    </div>
+                    <div class="btns pl-0">
+                        <button class="AddUserBtn btn btn-success">Add User</button>
+                        <button class="ImpUserBtn btn btn-success">Import User List</button>
+                    </div>
+                    <div class="col-md-4 col-xl-4 innerSearch pr-0">
+                        <input type="search" class="innerSearchText pl-2 m-0" placeholder="Search">
+                        <button class="innerSearchBtn"><i class="fa fa-search p-0"></i></button>
+                    </div>
+                    <div class="row pt-3 ml-3 smallText">
+                        <h6>Learn more about managing users <a href="#">here</a></h6>
+                    </div>
+                </div>
+                <div class="row smallText">
+                    <div class=" col-md-2 col-xl-2 pr-0 mr-0">
+                        <span>1-50 of 80 users</span>
+                    </div>
+                    <div class="col-sm-3 col-md-2 col-xl-2 ml-0 pl-0">
+                        <a href="#">Select Page</a>
+                    </div>
+                    <div class="col-sm-7 col-md-8 col-xl-8">
+                        <div class="row pr-3 justify-content-end drops">
+                            <div class="pl-0 pr-1">
+                                <select class="yearDrop">
+                                    <option value="" selected>2019-2020</option>
+                                </select>
+                            </div>
+                            <div class="pl-0 pr-1">
+                                <select class="UsrTypDrop">
+                                    <option value="" selected>User Type</option>
+                                </select>
+                            </div>
+                            <div class="pl-0 pr-1">
+                                <select class="roleDrop">
+                                    <option value="" selected>Role</option>
+                                </select>
+                            </div>
+                            <div class="pl-0">
+                                <button class="moreButton"><i class="fa fa-ellipsis-h px-3"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mainTable mt-1">
+                    <div class="col-sm-12 col-md-12 col-xl-12">
+                        <table class="table table-striped">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">User Type</th>
+                                    <th scope="col">Role</th>
+                                    <th scope="col">Latest Year</th>
+                                    <th scope="col">Grad Year</th>
+                                    <th scope="col">Tagged Media</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialPurple"><h4 class="mb-0">D</h4></div></th>
+                                    <td class="blueFont">David Acuna</td>
+                                    <td>Staff</td>
+                                    <td>Administrator</td>
+                                    <td>2019-2020</td>
+                                    <td></td>
+                                    <td class="blueFont">14</td>
+                                    <td class="greenFont">Activated</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialPurple"><h4 class="mb-0">M</h4></div></th>
+                                    <td class="blueFont">Mel Adams</td>
+                                    <td>Staff</td>
+                                    <td>Contributor</td>
+                                    <td>2019-2020</td>
+                                    <td></td>
+                                    <td class="blueFont">6</td>
+                                    <td class="redFont"> Not Invited</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialBlue"><h4 class="mb-0">S</h4></div></th>
+                                    <td class="blueFont">Syed Salman</td>
+                                    <td>Founder</td>
+                                    <td>Administrator</td>
+                                    <td>2019-2020</td>
+                                    <td></td>
+                                    <td class="blueFont">14</td>
+                                    <td class="greenFont">Activated</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialPurple"><h4 class="mb-0">Y</h4></div></th>
+                                    <td class="blueFont">Yaris Acuna</td>
+                                    <td>Staff</td>
+                                    <td>Administrator</td>
+                                    <td>2019-2020</td>
+                                    <td></td>
+                                    <td class="blueFont">14</td>
+                                    <td class="redFont"> Not Invited</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialPurple"><h4 class="mb-0">B</h4></div></th>
+                                    <td class="blueFont">Boris Acuna</td>
+                                    <td>Staff</td>
+                                    <td>Administrator</td>
+                                    <td>2019-2020</td>
+                                    <td>2015</td>
+                                    <td class="blueFont">14</td>
+                                    <td class="redFont"> Not Invited</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialPurple"><h4 class="mb-0">F</h4></div></th>
+                                    <td class="blueFont">Fund Acuna</td>
+                                    <td>Staff</td>
+                                    <td>Contributor</td>
+                                    <td>2019-2020</td>
+                                    <td>2017</td>
+                                    <td class="blueFont">14</td>
+                                    <td class="redFont"> Not Invited</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialPurple"><h4 class="mb-0">D</h4></div></th>
+                                    <td class="blueFont">David Acuna</td>
+                                    <td>Staff</td>
+                                    <td>Administrator</td>
+                                    <td>2019-2020</td>
+                                    <td></td>
+                                    <td class="blueFont">14</td>
+                                    <td class="redFont"> Not Invited</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialPurple"><h4 class="mb-0">D</h4></div></th>
+                                    <td class="blueFont">David Acuna</td>
+                                    <td>Staff</td>
+                                    <td>Administrator</td>
+                                    <td>2019-2020</td>
+                                    <td></td>
+                                    <td class="blueFont">14</td>
+                                    <td class="redFont"> Not Invited</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox"></th>
+                                    <th scope="row"><div class="p-1 initialPurple"><h4 class="mb-0">D</h4></div></th>
+                                    <td class="blueFont">David Acuna</td>
+                                    <td>Staff</td>
+                                    <td>Administrator</td>
+                                    <td>2019-2020</td>
+                                    <td></td>
+                                    <td class="blueFont">14</td>
+                                    <td class="redFont"> Not Invited</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>     
+    </div>
+</body>
+</html>

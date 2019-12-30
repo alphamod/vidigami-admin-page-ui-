@@ -1,0 +1,259 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+}
+.logoBg{
+    
+    background-color: #8cc542;
+}
+
+.searchText{
+    margin: 0px;
+    border: none;
+    height: 80%;
+}
+
+.searchButton{
+    border: none;
+    height: 80%;
+    color: lightgray;
+    background-color: white;
+}
+.searchButton:hover{
+    color: #8cc542;
+}
+
+.navBar{
+    background-color: rgb(9, 51, 70);
+}
+
+.nav >li > i{
+    color: white;
+    padding:20px 5px 8px 5px;
+    margin: auto 5px auto 5px;
+}
+.networkIcon>img{
+    height: 15px;
+}
+
+.nav>li>i:hover{
+    border: #8cc542 solid;
+}
+
+.nav>li>img{
+    overflow: hidden;
+    height: 30px;
+    width: auto;
+    border-radius:50% ;
+    padding: 0px;
+    margin: 0px;
+}
+.profilePic:hover{
+    border: #8cc542 solid;
+}
+.profilePic{
+    padding:10px 10px 5px 10px;
+}
+
+.leftBar{
+    background-color: rgb(9, 51, 70);
+    color: white;
+}
+
+.leftProfile{
+    border: white solid;
+    border-radius: 50%;
+    background-color: #8cc542;
+    margin: 15px 0px 15px 0px ;
+}
+.leftProfile>h1{
+    font-size: 180%;
+    text-align: center;
+    margin: 5px;
+}
+
+.profileName{
+    padding: 15px;
+}
+
+.leftProfileName> h1{
+    font-weight: 300;
+    font-size: 150%;
+    padding: 25px 0px 15px 10px;
+}
+.groups>h5{
+    padding-left:3px;
+}
+.groupIcon>i{
+    color: white;
+}
+
+.groupUl{
+    font-size: 90%;
+}
+.groupUl>ul{
+    margin-top: 10px;
+}
+.groupUl>ul>li{
+    color: purple;
+    font-size: 200%;
+}
+.groupUl>ul>li>span{
+    color: white;
+    font-size: 55%;
+    vertical-align: middle;
+}
+#sE{
+    color: #8cc542;
+}
+#sE>span{
+    color: white;
+}
+
+.supportBtn>div >button{
+    color: white;
+    border-radius: 20%/50%;
+    border: none;
+    background-color: rgb(35, 74, 92);
+    padding: 15px;
+    font-weight: 500;
+}
+.mainContImg>img{
+    height: 100px;
+    width:auto;
+    padding: 15px;
+}
+.vTS{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+
+.rightTab>div>li>a{
+    text-decoration: none;
+    color: gray;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.rightTab>div>li:hover{
+    color: black;
+    border-bottom: #8cc542 solid;
+}
+.rightTab>div>li>a:hover{
+    color: black;
+    font-weight: 600;
+}
+
+.rightTab>div>li{
+    list-style: none;
+    padding: 0px 10px 15px 5px;
+    margin: 10px 10px -16px 10px;
+}
+
+.shadowHr{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-shadow: 0px 6px 2px -5px gray;
+    -moz-box-shadow: 0px 6px 2px -5px gray;
+    box-shadow: 0px 6px 2px -5px gray;
+    margin-top: -10px;
+    height: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.resultTop>div>label{
+    color: gray;
+}
+input.resultChk{
+    transform: scale(1.25);
+}
+.btns > button{
+    border: none;
+    font-size: 90%;
+    background-color: #8cc542;
+    margin-left: 5px;
+}
+
+.btns{
+    margin-left: -40px;
+}
+
+.innerSearch{
+    margin-left: 350px;
+}
+.innerSearchText{
+    border-right: 0px;
+    box-shadow: none;
+    border-style: solid;
+    height: 100%;
+    width: 90%;
+}
+.innerSearchBtn{
+    border-style: solid;
+    box-shadow: none;
+    border-left: none;
+    height: 100%;
+    color: lightgray;
+    background-color: white;
+    margin-left: -5px;
+}
+
+.smallText{
+    font-size: 90%;
+}
+
+.innerSearchBtn:hover{
+    color: #8cc542;
+}
+.moreButton>i{
+    color: gray;
+}
+.moreButton{
+    background-color: white;
+    border-style: inset;
+    border-width: thin;
+}
+
+.drops>div>select{
+    border-style: inset;
+    border-width: thin;
+}
+
+thead>tr>th{
+    font-weight: 500;
+}
+.initialPurple{
+    background-color: purple;
+    border-radius: 50%;
+    color: white;
+}
+.initialBlue{
+    background-color: deepskyblue;
+    border-radius: 50%;
+    color: white;
+}
+.initialPurple>h4{
+    text-align: center;
+}
+.initialBlue>h4{
+    text-align: center;
+}
+
+.mainTable{
+    font-size: 80%;
+    color: gray;
+}
+
+.blueFont{
+    color: deepskyblue;
+}
+.redFont{
+    color: red;
+}
+.greenFont{
+    color: #8cc542;
+}
